@@ -1,7 +1,23 @@
 # Server-client-application
-the aim of the project is to connect the client with server using TCP flow
-so to start the project first create 2 new separate project for the 2 classes as if they are 2 separate project 
-Then insert the IP address of the server using ipconfig command you will find the IP address and insert it in the string section of the server class
-After that start the server class before the client as if you started with the client there is nothing to connect to so we run the server first
-after we run the server we run the client server and type "CONNECT" in this way so the client conncet to the server after that you can start chat with the server send and recive from both server and client
-and finally when the client want to disconnect the client write "QUIT" so the client exit the chat
+
+The aim of the project is to connect the client with the server using TCP flow.
+
+## Getting Started
+
+To start the project, follow these steps:
+
+1. **Create Projects**: Create two separate projects for the two classes, one for the server and one for the client.
+2. **Configure IP Address**: Use the `ipconfig` command to find the IP address of the server. Insert this IP address into the string section of the server class.
+3. **Start the Server**: Run the server class first. The client needs the server to be running in order to connect.
+4. **Start the Client**: After the server is running, run the client class. Type "CONNECT" to establish a connection with the server. Once connected, you can start chatting with the server, sending and receiving messages from both ends.
+5. **Disconnect**: When the client wants to disconnect, type "QUIT" to exit the chat.
+
+## Example Commands
+
+- **CONNECT**: Initiate the connection with the server.
+- **QUIT**: Disconnect the client from the server.
+
+## Additional Information
+
+This project is implemented in Java. Ensure that both the server and client are running on the same network for successful communication.
+
